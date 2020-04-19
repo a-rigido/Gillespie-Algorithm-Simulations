@@ -28,7 +28,12 @@ It would be disadvantageous for any cell to allow chemical reactions to just fol
 
 E + S ←→ ES → E + P,
 
-where E is the amount of enzyme molecules, S is the amount of substrate molecules, ES is the amount of Enzyme-Substrate complex molecules, and P is the amount of product molecules. It should be noted that it has been assumed that the rate constants will remain constant despite changes in the cell, and the the reverse production formation rate is negligible as the product tends to be more thermodynamically stable than the substrate/intermediates. With all this in mind, the script shown will use a Gillespie algorithm to predict the behaviour of the irreversible enzymatic reaction show 
+where E is the amount of enzyme molecules, S is the amount of substrate molecules, ES is the amount of Enzyme-Substrate complex molecules, and P is the amount of product molecules. It should be noted that it has been assumed that the rate constants will remain constant despite changes in the cell, and the the reverse production formation rate is negligible as the product tends to be more thermodynamically stable than the substrate/intermediates. With all this in mind, the script shown will use a Gillespie algorithm to predict the behaviour of the irreversible enzymatic reaction shown below:
+
+
+#### End Result from Script
+
+![](https://github.com/a-rigido/Gillespie-Algorithm-Simulations/blob/master/irrEnzymaticReaction.png)
 
 ### Case 2: SIR Model
 
@@ -37,3 +42,7 @@ The SIR model is a model that simulates the spread of disease and recovery of a 
 S → I → R,
 
 where S is for the susceptible population, I is for the Infected population, and R is for the recovered population. In this  particular simulation, there will also be a rate of birth to increase the S population, a death rate for the I population, and those that recover from the pathogen will remain immune to it for the rest of their lives. Of course this is one of the simple scenarios regarding this flavour of epidemiological model and can easily be made more complex, but the main reason for exploring this simulation again is to show how the Gillespie algorithm can be used to stochastically stimulated a non-chemical reaction scenario, showing the diversity of the method.
+
+#### End Result from Script
+
+![](https://github.com/a-rigido/Gillespie-Algorithm-Simulations/blob/master/SIRmodel.png)

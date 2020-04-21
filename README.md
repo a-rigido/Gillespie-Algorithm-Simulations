@@ -46,3 +46,8 @@ where S is for the susceptible population, I is for the Infected population, and
 #### End Result from Script
 
 ![](https://github.com/a-rigido/Gillespie-Algorithm-Simulations/blob/master/SIRmodel.png)
+
+
+<p align="center">
+Copyright (c) 2019 Alex Rigido
+</p> 
